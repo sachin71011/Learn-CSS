@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Jane Doe - Web Developer, Systems Optimizer & Algorithm Explorer. Showcase of skills, experience, and projects.">
+  <title>Jane Doe | Web Developer & Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <span class="logo-dot"></span>JaneDoe<span class="logo-accent">.</span>
+        </a>
+        <div class="nav-menu">
+          <a href="#about" class="nav-link"><span class="nav-num">01.</span>About</a>
+          <a href="#resume" class="nav-link"><span class="nav-num">02.</span>Resume</a>
+          <a href="#projects" class="nav-link"><span class="nav-num">03.</span>Projects</a>
+          <a href="#contact" class="nav-link"><span class="nav-num">04.</span>Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="hero-subtitle">Hi, my name is</span>
+          <h1 class="hero-title">Jane Doe.</h1>
+          <h2 class="hero-tagline">I build optimized web experiences.</h2>
+          <p class="hero-desc">
+            I am a transition-stage developer specializing in semantic web engineering and algorithmic problem solving. 
+            Leveraging a robust background in systems organization and client communication, I engineer clean, performant, 
+            and user-centric web applications.
+          </p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="profile-glow"></div>
+          <div class="profile-frame">
+            <img src="./assets/profile.png" alt="Jane Doe - Professional Web Developer Portrait" class="profile-img">
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about" aria-label="Scroll to About Section">
+          <span class="mouse-icon">
+            <span class="mouse-wheel"></span>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="section-num">01.</span>About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              My journey into technology is unique. Armed with a Bachelor's degree in Business Administration, 
+              I spent several years managing complex operations as an Administrative Assistant and resolving client challenges 
+              as a Customer Service Representative. These roles instilled in me a deep passion for <strong>process optimization</strong>, 
+              <strong>meticulous attention to detail</strong>, and **user-centric empathy**.
+            </p>
+            <p>
+              Realizing that I could solve these business and user problems more directly through technology, I transitioned 
+              into software development. Today, I combine my rigorous organizational skills and analytical mindset with modern web technologies 
+              to construct high-quality web applications.
+            </p>
+            <p>
+              I am highly focused on writing clean, semantic markup, engineering responsive layouts, and diving deep into 
+              <strong>Data Structures & Algorithms (DSA)</strong> to ensure that my systems run as efficiently under the hood as they perform on the surface.
+            </p>
+          </div>
+          
+          <div class="values-grid">
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <h3 class="value-title">User-Centric Empathy</h3>
+              <p class="value-desc">Crafting digital products with a deep understanding of user needs, shaped by years of direct customer relationships.</p>
+            </div>
+            
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+              </div>
+              <h3 class="value-title">Systems & Organization</h3>
+              <p class="value-desc">Engineering scalable, clean, and highly organized codebases inspired by rigorous administrative planning.</p>
+            </div>
+            
+            <div class="value-card">
+              <div class="value-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="value-title">Algorithmic Rigor</h3>
+              <p class="value-desc">Applying solid Data Structures & Algorithms principles to write highly performant, efficient software.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="section-num">02.</span>Experience & Skills</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="resume-grid">
+          <!-- Experience & Education Timeline -->
+          <div class="timeline-column">
+            <h3 class="resume-subheading"><i class="fa-solid fa-briefcase"></i> Professional Journey</h3>
+            <div class="timeline">
+              <!-- Item 1 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">June 2018 - Present</div>
+                <h4 class="timeline-title">Administrative Assistant</h4>
+                <h5 class="timeline-company">XYZ Corp.</h5>
+                <p class="timeline-desc">
+                  Assisted with scheduling complex appointments and corporate meetings. Managed diverse incoming/outgoing correspondence 
+                  and designed critical reports and presentations using the Microsoft Office Suite to optimize internal office operations.
+                </p>
+              </div>
+              <!-- Item 2 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">June 2014 - May 2018</div>
+                <h4 class="timeline-title">Customer Service Representative</h4>
+                <h5 class="timeline-company">ABC Inc.</h5>
+                <p class="timeline-desc">
+                  Managed and answered critical client inquiries via phone and email. Successfully resolved complex complaints, 
+                  tracked records, updated accounts, and earned "Employee of the Month" in August 2016 for exceptional performance.
+                </p>
+              </div>
+              <!-- Item 3 -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2010 - 2014</div>
+                <h4 class="timeline-title">Bachelor of Arts, Business Administration</h4>
+                <h5 class="timeline-company">University of XYZ</h5>
+                <p class="timeline-desc">
+                  Acquired extensive foundational knowledge in systems thinking, organizational management, project coordination, 
+                  and operational efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Column -->
+          <div class="skills-column">
+            <h3 class="resume-subheading"><i class="fa-solid fa-list-check"></i> Technical Arsenal</h3>
+            <p class="skills-intro">
+              A comprehensive toolkit developed through intensive study and cross-functional business expertise:
+            </p>
+            
+            <div class="skills-container">
+              <!-- Skill 1 -->
+              <div class="skill-bar-wrapper">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5 & Semantic Structure</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill fill-90"></div>
+                </div>
+              </div>
+              <!-- Skill 2 -->
+              <div class="skill-bar-wrapper">
+                <div class="skill-info">
+                  <span class="skill-name">CSS3 (Grid, Flexbox, Animations)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill fill-85"></div>
+                </div>
+              </div>
+              <!-- Skill 3 -->
+              <div class="skill-bar-wrapper">
+                <div class="skill-info">
+                  <span class="skill-name">Data Structures & Algorithms (DSA)</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill fill-75"></div>
+                </div>
+              </div>
+              <!-- Skill 4 -->
+              <div class="skill-bar-wrapper">
+                <div class="skill-info">
+                  <span class="skill-name">Office Suite & Reporting Tools</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill fill-95"></div>
+                </div>
+              </div>
+              <!-- Skill 5 -->
+              <div class="skill-bar-wrapper">
+                <div class="skill-info">
+                  <span class="skill-name">Systems Organization & Operations</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill fill-90"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Capstone 1 Resume Callout -->
+            <div class="resume-callout">
+              <div class="callout-content">
+                <h4>Looking for a direct resume printout?</h4>
+                <p>Access the clean, unstyled, semantic-focused classic HTML resume created for Capstone Project 1.</p>
+              </div>
+              <a href="../../HTML/capstone project-1/index.html" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Classic HTML Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="section-num">03.</span>Selected Work</h2>
+          <div class="section-divider"></div>
+        </div>
+        
+        <p class="section-intro">
+          Here is a selection of recent web designs and projects crafted with precision and pixel-perfect responsiveness.
+        </p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="./assets/project1.png" alt="Aura SaaS Analytics Dashboard preview showing dark mode charts" class="project-img">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link-icon" aria-label="View Project Source Code"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="project-link-icon" aria-label="View Project Demo Website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS Grid</span>
+                <span class="tag">Glassmorphism</span>
+              </div>
+              <h3 class="project-card-title">Aura SaaS Dashboard</h3>
+              <p class="project-card-desc">
+                A highly comprehensive SaaS analytics interface emphasizing beautiful CSS Grid arrangements, glassmorphism sidebar panels, 
+                and fully customizable dark theme properties.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="./assets/project2.png" alt="FitFlex mobile app layout showing premium gradients and schedules" class="project-img">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link-icon" aria-label="View Project Source Code"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="project-link-icon" aria-label="View Project Demo Website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags">
+                <span class="tag">Responsive</span>
+                <span class="tag">Flexbox</span>
+                <span class="tag">Modern UI</span>
+              </div>
+              <h3 class="project-card-title">FitFlex Mobile Interface</h3>
+              <p class="project-card-desc">
+                A high-fidelity adaptive mobile-first design interface displaying premium HSL custom gradients, elegant card-shadows, 
+                and custom horizontal flex-scroll containers.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="./assets/project3.png" alt="Aether Design Agency preview featuring modern geometric layouts" class="project-img">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link-icon" aria-label="View Project Source Code"><i class="fa-brands fa-github"></i></a>
+                  <a href="#" class="project-link-icon" aria-label="View Project Demo Website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags">
+                <span class="tag">Animations</span>
+                <span class="tag">Transitions</span>
+                <span class="tag">Vanilla CSS</span>
+              </div>
+              <h3 class="project-card-title">Aether Agency Landing Page</h3>
+              <p class="project-card-desc">
+                A stunning visual landing page utilizing advanced vanilla CSS transitions, custom scrollbar properties, keyframe-animated 
+                background elements, and elegant type structures.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title"><span class="section-num">04.</span>Get In Touch</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Let's craft something amazing.</h3>
+            <p class="contact-text">
+              Whether you are looking to bring a talented junior developer with premium administrative skills onto your technical team, 
+              have a project inquiry, or just want to chat about Data Structures & Algorithms, my inbox is always open.
+            </p>
+            
+            <div class="contact-channels">
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Email Me</span>
+                  <a href="mailto:jane.doe@example.com" class="channel-link">jane.doe@example.com</a>
+                </div>
+              </div>
+              
+              <div class="contact-channel-item">
+                <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="channel-details">
+                  <span class="channel-label">Location</span>
+                  <span class="channel-val">San Francisco Bay Area, CA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pure CSS Contact Form -->
+          <form class="contact-form" action="#" method="POST" onsubmit="return false;">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="name" name="name" class="form-control" required placeholder=" ">
+                <label for="name" class="form-label">Your Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-control" required placeholder=" ">
+                <label for="email" class="form-label">Email Address</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" class="form-control" required placeholder=" ">
+              <label for="subject" class="form-label">Subject</label>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" rows="5" class="form-control" required placeholder=" "></textarea>
+              <label for="message" class="form-label">Write your message...</label>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-submit">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">JaneDoe<span class="logo-accent">.</span></a>
+        <p class="footer-tagline">Optimizing and engineering the web with user-centered dedication.</p>
+      </div>
+      
+      <div class="footer-socials">
+        <a href="https://github.com" class="social-link" target="_blank" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com" class="social-link" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" class="social-link" target="_blank" aria-label="Twitter Profile"><i class="fa-brands fa-twitter"></i></a>
+        <a href="mailto:jane.doe@example.com" class="social-link" aria-label="Email Inbox"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      
+      <div class="footer-copyright">
+        <p>© 2026 Jane Doe. All rights reserved.</p>
+        <p class="built-with">Built entirely with <i class="fa-solid fa-heart accent-color"></i> semantic HTML5 & modern CSS3.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
